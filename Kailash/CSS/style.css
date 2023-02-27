@@ -72,7 +72,8 @@ a{
       font-size:1.5rem;
     }
 }
-/*badges*/
+/*badges
+*/
 .badge{
     border-radius:20px;
     padding:0.5rem 2rem;
@@ -113,8 +114,8 @@ a{
 } */
 .list--tick
 {
-      list-style-image: url(/images/checkmark.png);
-      padding-left:4rem;
+      list-style-image: url(/images/tick.svg);
+      padding-left:3rem;
 
 }
 .list--tick .list__item{
@@ -127,4 +128,21 @@ a{
         padding-left: 0;
        
     }
+}
+.icon{
+    height:40px;
+    width:40px;
+}
+.icon--primary{
+     fill:var(--color-primary);
+}
+.icon-container{
+    background:#f3f9fa;
+    width:64px;
+    height: 64px;
+    border-radius: 100%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+
 }
