@@ -503,8 +503,10 @@ a{
    opacity:1;
 } 
 .block{
+    --padding-vertical:6rem;
     padding: 6rem 2rem; 
-    border:2px solid red;
+    
+    text-align: center;
 }
 .block__heading{
     margin-top: 0;
@@ -517,9 +519,21 @@ a{
     color:white;
 }
 .block--skewed-right{
-    padding-bottom: 10rem;
+    padding-bottom: calc(var(--padding-vertical)+4rem);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
+.block--skewed-left{
+    padding-bottom: calc(var(--padding-vertical)+4rem);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.block__header{
+   text-align: center;
+}  
+.container{
+    max-width:1140px;
+    margin:0 auto;
+}
+
 
 
 
