@@ -536,8 +536,7 @@ a{
 .block{
     --padding-vertical:6rem;
     padding: 6rem 2rem; 
-    
-    text-align: center;
+    text-align: left;
 }
 .block__heading{
     margin-top: 0;
@@ -562,6 +561,7 @@ a{
 }
 .block__header{
    text-align: center;
+   margin-bottom: 4rem;
 }  
 .container{
     max-width:1140px;
@@ -710,6 +710,9 @@ color:white;
          width:auto;
          max-width: 700px;
     }
+}
+.ddd{
+   fill:var(--color-accent);
 }
 
 
