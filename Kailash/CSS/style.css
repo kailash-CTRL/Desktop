@@ -23,10 +23,10 @@ body{
 h1,h2,h3{
     color: var(--color-headings);
     margin-bottom: 1.5rem;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 
 }
-h1{
+/* h1{
     font-size:7rem;
 }
 h2{
@@ -35,7 +35,7 @@ h2{
 h3{
     font-size: 3rem;
    
-}
+} */
 p{
     margin-top:0;
 }
@@ -113,13 +113,13 @@ a{
 .list{
     list-style: none;
     padding-left: 0;
-   
+    
     font-weight: bold;
 }
-/* .list--inline .list__item{
+.list--inline .list__item{
    display: inline-block;
    margin-right:2rem;
-} */
+}
 .list--tick
 {
       list-style-image: url(/images/tick.svg);
@@ -169,7 +169,7 @@ a{
     font-size:1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding:2rem 3rem;
+    padding:2rem 4vw;
     border:0;
     outline:0;
     text-align: center;
@@ -178,6 +178,7 @@ a{
     white-space: nowrap;
     margin:1rem 0;
 }
+
 .btn .icon{
     width:2rem;
     height:2rem;
@@ -254,6 +255,7 @@ a{
     border:0;
     flex-grow: 1;
     padding:1.5rem 2rem;
+    width:0;
 
 }
 .input-group .btn{
@@ -478,11 +480,11 @@ a{
     margin-top:0;
     font-size:3rem;
 }
-/* .grid{
+.grid{
     display: grid;
     justify-items:stretch;
     align-items: stretch;
-} */
+}
 .callout .btn{
     justify-self: center;
     align-self: center ;
@@ -650,7 +652,8 @@ color:white;
 }
 .block-domain__prices{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    color:var(--color-headings);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,6rem);
     font-size: 2rem;
     font-weight:600px;
