@@ -103,6 +103,7 @@ function max_of_two(number1,number2)
        return  number2;
     }
 }
+ console.lg("dummy");
 console.log(max_of_two(number1,number2));
 
 let height=25;
